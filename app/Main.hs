@@ -1,6 +1,7 @@
 module Main where
 
-import Lib
+import PunGen
 
 main :: IO ()
-main = someFunc
+main = 
+  print $ genPun "strange" "market" "bizarre" "bazaar"
